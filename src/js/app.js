@@ -29,6 +29,8 @@ define('app', function() {
 		};
 	}]);
 
+	// app.constant('HOST', 'http://115.28.169.229');
+	app.constant('HOST', '');
 
 	return app;
 });

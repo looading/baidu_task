@@ -1,1 +1,5 @@
-<h1>center</h1>
+<ul>
+	<li ng-repeat="list in taskList">
+		<a ng-href="{{list.href}}" ng-bind="list.name"></a>
+	</li>
+</ul>
