@@ -3,7 +3,7 @@ var www = './www';
 
 module.exports = {
 	img : {
-		src : src + '/img/*.*',
+		src : src + '/img/**',
 		dest : www + '/img'
 	},
 	sass : {

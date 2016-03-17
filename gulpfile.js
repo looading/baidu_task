@@ -82,5 +82,5 @@ gulp.task('clean', function(){
 });
 
 // develop 
-gulp.task('default', ['clean', 'server', 'watch']);
+gulp.task('default', ['server', 'watch']);
 
