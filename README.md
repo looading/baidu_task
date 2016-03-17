@@ -25,5 +25,5 @@ bower install
 ```
 2.开始任务
 ```bash
-gulp
+gulp default
 ```
