@@ -1,0 +1,30 @@
+{
+  "name": "angular-seed",
+  "description": "angular-requirejs-uibootstrap-seed",
+  "main": "index.html",
+  "authors": [
+    "looading"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "require",
+    "bootstrap"
+  ],
+  "homepage": "https://github.com/looading/angular-seed",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./www/libs",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "requirejs": "^2.1.22",
+    "ui-bootstrap": "^1.2.4",
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0"
+  }
+}
