@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var browserify = require('browser-sync').create();
+var browserSync = require('browser-sync').create();
 var uglify = require('gulp-uglify');
 var sass = require('gulp-sass');
 var imagemin = require('gulp-imagemin');
@@ -7,12 +7,12 @@ var jshint = require('gulp-jshint');
 var clean = require('gulp-clean');
 var config = require('./gulp/config.js');
 
-var reload = browserify.reload;
+var reload = browserSync.reload;
 
 
 // create local server
 gulp.task('server', function() {
-	browserify.init({
+	browserSync.init({
 		// 创建本地服务器
 		server : {
 			baseDir : 'www'
